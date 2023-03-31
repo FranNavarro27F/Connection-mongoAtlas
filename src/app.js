@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 import express from "express";
 import mongoose from "mongoose";
-const { MONGO_ATLAS_USER, MONGO_ATLAS_PASSWORD } = process.env;
+const { MONGO_ATLAS_PASSWORD } = process.env;
 
 const app = express();
 
